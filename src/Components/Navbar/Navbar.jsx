@@ -10,6 +10,9 @@ const Navbar = () => {
           <img className='menu-icon' src={menu_icon} alt="menu" />
           <img src={logo} alt="logo" />
         </div>
+        <div className="nav-middle flex-div">
+          <input type="text"/>
+        </div>
     </div>
   )
 }
