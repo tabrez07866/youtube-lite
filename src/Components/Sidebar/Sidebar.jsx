@@ -16,9 +16,9 @@ import cameron from '../../assets/cameron.png'
 import megan from '../../assets/megan.png'
 
 
-const Sidebar = () => {
+const Sidebar = ({sidebar}) => {
   return (
-    <div className='sidebar'>
+    <div className={`sidebar ${sidebar?"":"small-sidebar"}`}>
       <div className="sortcut-links">
         <div className="side-link">
            <img src={home} alt=" " /><p>Home</p>
